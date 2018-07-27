@@ -2026,6 +2026,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 }
 
+.recruiting-area { 
+  background: url(../img/black.jpg) center; 
+  background-size: cover; 
+
+}
+
 #about-title{
     border: 1px solid; 
    
@@ -2033,6 +2039,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services-title{ 
   border: 1px solid;
+}
+
+#recruiting-title { 
+  border: 1px solid;
+
 }
 
 @media (max-width: 767px) {

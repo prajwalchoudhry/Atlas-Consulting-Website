@@ -1668,6 +1668,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background: #fff !important;
+  
 }
 #header.header-scrolled {
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
@@ -1920,9 +1921,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .p1-gradient-bg,
 .faq-area .faq-left .mn-accordion .state-open .accordion-heading,
 .testomial-area {
-  background-image: -moz-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
-  background-image: -ms-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
+  background: url(../img/black.jpg) center;
+
 }
 .p1-gradient-color {
   background: -moz-linear-gradient(0deg, #888fff 0%, #ce90ff 100%);
@@ -2606,6 +2606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .footer-area {
   background: #000;
+  
   padding-top: 100px;
 
 }

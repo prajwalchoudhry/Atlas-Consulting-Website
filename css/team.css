@@ -1,0 +1,105 @@
+.student-base {
+  text-align: center;
+
+  padding: 200px 25px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.student-base h5 {
+  color: #000;
+  visibility: hidden;
+}
+
+.student-base p {
+    color: #000;
+    visibility: hidden;
+  }
+
+  .student-base p {
+    color: #000;
+    visibility: hidden;
+  }
+
+  .student-base .email {
+    color: #fff;
+    visibility: hidden;
+  }
+
+.student-base:hover {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(163, 155, 251, 0.3);
+ 
+}
+.student-base:hover h5 {
+  color: #fff;
+  visibility: visible;
+  
+}
+
+.student-base:hover p {
+    color: #fff;
+    visibility: visible;
+    
+  }
+
+  .student-base:hover .email {
+    color: #fff;
+    visibility: visible;
+  }
+
+.title { 
+    color: white;
+}
+
+/* Begin Executive Board */
+
+.student-one { 
+    background: url(../img/team/Vinayak.jpg) center;
+}
+
+.student-two { 
+    background: url(../img/team/Ben.jpg) center;
+    background-position-y: -40px;
+    background-position-x: -60px;
+}
+
+.student-three { 
+    background: url(../img/team/Harpreet.jpg) center; 
+    background-position-y: -30px;
+}
+
+.student-four { 
+  background: url(../img/team/Gurleen.jpg) center; 
+  background-position-y: -110px;
+  background-position-x: -65px;
+}
+
+.student-five { 
+  background: url(../img/team/Vichu.jpg) center; 
+  background-position-y: -65px;
+  background-position-x: -55px;
+  filter: brightness(105%);
+}
+
+.student-six { 
+  background: url(../img/team/Natalie.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -70px;
+  filter: brightness(110%);
+}
+
+.student-seven { 
+  background: url(../img/team/Will.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -50px;
+  filter: brightness(110%);
+}
+
+/* End Executive Board */
+
+
+

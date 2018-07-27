@@ -2018,12 +2018,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 .our-team-area{
   background: url(../img/black.jpg) center; 
   background-size: cover; 
+}
+
+.services-area { 
+  background: url(../img/black.jpg) center; 
+  background-size: cover; 
 
 }
 
 #about-title{
     border: 1px solid; 
    
+}
+
+#services-title{ 
+  border: 1px solid;
 }
 
 @media (max-width: 767px) {
@@ -2101,9 +2110,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-service:hover {
   cursor: pointer;
 }
-.single-service:hover h4 {
-  color: #988fff;
-}
 .single-service .thumb {
   overflow: hidden;
 }
@@ -2114,9 +2120,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.single-service:hover .thumb img {
-  transform: scale(1.1) rotate(-2deg);
-}
+
 @media (max-width: 960px) {
   .single-service {
     text-align: center;
@@ -3655,3 +3659,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-color: #988fff !important;
   color: #988fff !important;
 }
+
+#service-2{ 
+  margin-bottom: 150px; 
+}
+

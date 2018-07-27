@@ -9,17 +9,17 @@
   transition: all 0.3s ease 0s;
 }
 .student-base h5 {
-  color: #000;
+  color: #fff;
   visibility: hidden;
 }
 
 .student-base p {
-    color: #000;
+    color: #fff;
     visibility: hidden;
   }
 
   .student-base p {
-    color: #000;
+    color: #fff;
     visibility: hidden;
   }
 
@@ -61,6 +61,11 @@
     background: url(../img/team/Vinayak.jpg) center;
 }
 
+.student-one:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
 .student-two { 
     background: url(../img/team/Ben.jpg) center;
     background-position-y: -40px;
@@ -100,6 +105,109 @@
 }
 
 /* End Executive Board */
+
+.student-eight { 
+  background: url(../img/team/Nina.jpg) center; 
+  background-position-x: -70px;
+}
+
+.student-nine { 
+  background: url(../img/team/Daniel.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -70px;
+}
+
+
+.student-nine { 
+  background: url(../img/team/Daniel.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -70px;
+}
+
+.student-ten { 
+  background: url(../img/team/Nick.jpg) center; 
+  background-position-y: -40px;
+
+}
+
+.student-eleven { 
+  background: url(../img/team/Nathan.jpg) center; 
+  background-position-y: -10px;
+  background-position-x: -10px;
+}
+
+.student-twelve { 
+  background: url(../img/team/Zoe.jpg) center; 
+  background-position-y: -90px;
+  background-position-x: -70px;
+}
+
+
+
+.student-one:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-two:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-two:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-three:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-four:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-five:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-six:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-seven:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-eight:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-nine:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-ten:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-eleven:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twelve:hover {
+  background-color:#000;
+  opacity:0.7;
+}
 
 
 

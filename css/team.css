@@ -142,6 +142,37 @@
   background-position-x: -70px;
 }
 
+.student-thirteen {
+  background: url(../img/team/Jonah.jpg) center; 
+  background-position-y: -40px;
+  background-position-x: -45px;
+  
+}
+
+.student-fourteen {
+  background: url(../img/team/Pratix.jpg) center; 
+  background-position-y: -90px;
+  background-position-x: -45px;
+  filter: brightness(105%);
+  
+}
+
+.student-fifteen { 
+  background: url(../img/team/Jenni.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -75px;
+  filter: brightness(105%);
+
+}
+
+.student-sixteen { 
+  background: url(../img/team/Praj.jpg) center; 
+  background-position-y: -50px;
+  background-position-x: -25px;
+  filter: brightness(105%);
+
+}
+
 
 
 .student-one:hover {
@@ -208,6 +239,30 @@
   background-color:#000;
   opacity:0.7;
 }
+
+.student-thirteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-fourteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-fifteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-sixteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+
+
+
 
 #team-nav { 
     margin: 20px;

@@ -173,7 +173,69 @@
 
 }
 
+.student-seventeen { 
+  background: url(../img/team/Kendall.jpg) center; 
+  background-position-y: -50px;
+  background-position-x: -25px;
+  filter: brightness(105%);
 
+}
+
+.student-eighteen { 
+  background: url(../img/team/Ashish.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: 0px;
+  filter: brightness(105%);
+
+}
+
+.student-nineteen { 
+  background: url(../img/team/Hunter.jpg) center; 
+  background-position-y: -35px;
+  background-position-x: -20px;
+  filter: brightness(105%);
+
+}
+
+.student-twenty { 
+  background: url(../img/team/Emily.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -40px;
+  filter: brightness(105%);
+
+}
+
+.student-twenty-one { 
+  background: url(../img/team/Ashley.jpg) center; 
+  background-position-y: -70px;
+  background-position-x: -55px;
+  filter: brightness(105%);
+
+}
+
+.student-twenty-two { 
+  background: url(../img/team/Justin.jpg) center; 
+  background-position-y: -65px;
+  background-position-x: -30px;
+  filter: brightness(105%);
+
+}
+
+.student-twenty-three { 
+  background: url(../img/team/Amogh.jpg) center; 
+  background-position-y: -115px;
+  background-position-x: -50px;
+  filter: brightness(105%);
+
+}
+
+.student-twenty-four { 
+  background: url(../img/team/Daksh.jpg) center; 
+  background-position-y: -80px;
+  background-position-x: -70px;
+  filter: brightness(105%);
+
+}
 
 .student-one:hover {
   background-color:#000;
@@ -259,6 +321,48 @@
   background-color:#000;
   opacity:0.7;
 }
+
+.student-seventeen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-eighteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-nineteen:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twenty:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twenty-one:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twenty-two:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twenty-three:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+.student-twenty-four:hover {
+  background-color:#000;
+  opacity:0.7;
+}
+
+
 
 
 

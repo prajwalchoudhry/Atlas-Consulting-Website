@@ -209,6 +209,10 @@
   opacity:0.7;
 }
 
+#team-nav { 
+    margin: 20px;
+}
+
 #executive-board-title { 
   margin-top: 50px;  
 }
@@ -216,5 +220,6 @@
 #project-managers-title { 
   margin-top: 50px;  
 }
+
 
 

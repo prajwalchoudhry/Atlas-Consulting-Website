@@ -1939,11 +1939,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .p2-gradient-color,
 .work-process-area .single-work-process .work-icon-box span {
-  background: -moz-linear-gradient(0deg, #f43d6a 0%, #f574dd 100%);
-  background: -webkit-linear-gradient(0deg, #f43d6a 0%, #f574dd 100%);
-  background: -ms-linear-gradient(0deg, #f43d6a 0%, #f574dd 100%);
+  background: -moz-linear-gradient(0deg,#00aeef 0%, #00aeef 100%);
+  background: -webkit-linear-gradient(0deg, #00aeef 0%, #00aeef 100%);
+  background: -ms-linear-gradient(0deg,#00aeef 0%, #00aeef 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.work-icon-box:hover { 
+  transform: scale(1.1) rotate(5deg);
+  
 }
 .primary-btn {
   background-color: #988fff;
@@ -2299,6 +2304,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .faq-area .faq-left .mn-accordion .accordion-item {
   margin-bottom: 10px;
+ 
 }
 .faq-area .faq-left .mn-accordion .accordion-item .accordion-heading {
   position: relative;
@@ -2329,7 +2335,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff !important;
 }
 .faq-area .faq-left .mn-accordion .accordion-item .accordion-heading .icon {
-  color: #000;
+  color: #000; 
   position: absolute;
   top: 50%;
   right: 5%;
@@ -3709,6 +3715,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 50px;
   text-align: center;
 }
+
+.apply-now-containier { 
+  text-align: center;
+}
+
+.apply-now-btn {
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 3px solid black;
+  color: #222;
+}
+
+.apply-now-btn:hover {
+  
+  background-color:black ;
+  border-radius: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px transparent;
+  color: white;
+  
+}
+
 
 
 

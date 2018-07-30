@@ -1925,7 +1925,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .p1-gradient-bg,
 .faq-area .faq-left .mn-accordion .state-open .accordion-heading,
 .testomial-area {
-  background: url(../img/black.jpg) center;
+  background-color: white;
 
 }
 .p1-gradient-color {
@@ -2501,9 +2501,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-testimonial {
   text-align: center;
   padding: 30px;
-  background: #f9f9ff;
+  background: white;
   text-align: center;
-  border: 1px solid #eee;
+  border: 1px solid #white;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2521,7 +2521,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .single-testimonial:hover {
   cursor: pointer;
-  background-color: #fff;
+  transform: scale(1.1);
 }
 .single-testimonial:hover h5 {
   color: #988fff;

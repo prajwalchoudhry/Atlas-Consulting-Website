@@ -1,9 +1,9 @@
 ::-moz-selection {
-  background-color: #988fff;
+  background-color: black;
   color: #fff;
 }
 ::selection {
-  background-color: #988fff;
+  background-color: black;
   color: #fff;
 }
 ::-webkit-input-placeholder {
@@ -754,14 +754,14 @@ h6 {
   border: 1px solid transparent;
 }
 .genric-btn.primary {
-  color: #fff;
-  background: #988fff;
-  border: 1px solid transparent;
+  color: black;
+  background: transparent;
+  border: 1px solid black;
 }
 .genric-btn.primary:hover {
-  color: #988fff;
-  border: 1px solid #988fff;
-  background: #fff;
+  color: white;
+  border: 1px solid white;
+  background: black;
 }
 .genric-btn.primary-border {
   color: #988fff;
@@ -1910,6 +1910,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   margin-bottom: 0;
 }
+
+#contact-us-title {
+  border: 1px solid; 
+}
 @media (max-width: 991.98px) {
   .section-title p br {
     display: none;
@@ -2034,8 +2038,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .recruiting-area { 
   background: url(../img/black.jpg) center; 
   background-size: cover; 
-
 }
+
+.blog-area { 
+  background: url(../img/black.jpg) center; 
+  background-size: cover; 
+}
+
+
 
 #about-title{
     border: 1px solid; 
@@ -2530,7 +2540,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.1);
 }
 .single-blog:hover h5 {
-  color: #988fff;
+  color: black;
+  transform: scale(1.01);
 }
 .single-blog h5 {
   text-transform: uppercase;
@@ -2556,7 +2567,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 .single-blog .details-btn {
-  border: 1px solid #988fff;
+  border: 1px solid black;
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -2581,7 +2592,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .single-blog .details-btn:hover {
   width: 140px;
-  background: #988fff;
+  background: black;
+  color: white; 
   box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
 }
 .single-blog .details-btn:hover .details {
@@ -2785,7 +2797,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #777;
 }
 .single-footer-widget ::selection {
-  background-color: #988fff;
+  background-color: black;
   color: #777;
 }
 .single-footer-widget ::-webkit-input-placeholder {
@@ -3000,7 +3012,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact-page-area .single-contact-address .lnr {
   font-size: 30px;
   font-weight: 500;
-  color: #988fff;
+  color: #00aeef;
   margin-right: 30px;
 }
 .blog-home-banner {

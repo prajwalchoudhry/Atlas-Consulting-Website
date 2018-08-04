@@ -1600,11 +1600,7 @@ h6 {
 .form-select .nice-select::after {
   right: 20px;
 }
-.header-top {
-  font-size: 12px;
-  padding: 8px;
-  background-color: #222222;
-}
+
 .header-top a {
   color: #fff;
 }
@@ -1667,7 +1663,8 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff !important;
+  background: white !important;
+  border-bottom: #00aeef 10px solid;
   
 }
 #header.header-scrolled {
@@ -1695,6 +1692,7 @@ h6 {
   border-left: 4px solid #988fff;
 }
 #header #logo img {
+  width: 125px;
   padding: 0;
   margin: 0;
 }
@@ -2016,12 +2014,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .banner-area {
   background: url(../img/group.jpg) center;
+  max-height: 100vh;
   background-size: cover;
 }
 
 .about-area{ 
-  background: url(../img/black.jpg) center; 
+  background: url(../img/black.jpg) center;
   background-size: cover; 
+  
 }
 
 .our-team-area{
@@ -3707,7 +3707,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #atlas-white-logo{
-  border: 1px solid; 
+  width: 250px;
+
   color: #fff; 
   padding-top: 10px;
   padding-right: 10px;
@@ -3752,6 +3753,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
   
 }
+
+
 
 
 
